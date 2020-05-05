@@ -10,4 +10,4 @@ jobs:
     - name: Construye imagen
       run: docker build --tag shellpytest .
     - name: Ejecuta objetivo principal del Makefile
-      run: docker run --volume shellpytest make
+      run: docker run shellpytest make
