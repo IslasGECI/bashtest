@@ -1,0 +1,4 @@
+tests:
+	pytest
+
+.PHONY: tests
