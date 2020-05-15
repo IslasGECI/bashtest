@@ -1,5 +1,5 @@
 FROM python
-WORKDIR workdir
+WORKDIR /workdir
 COPY . .
 RUN pip install pytest
 CMD make

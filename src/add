@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#
+# Suma dos números naturales
+augend=$1
+addend=$2
+total=$(( ${augend} + ${addend} ))
+echo "${total}"

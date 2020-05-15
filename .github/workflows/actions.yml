@@ -8,6 +8,6 @@ jobs:
     - name: Copia repositorio
       uses: actions/checkout@v2
     - name: Construye imagen
-      run: docker build --tag shellpytest .
+      run: docker build --tag islasgeci .
     - name: Ejecuta objetivo principal del Makefile
-      run: docker run shellpytest make
+      run: docker run islasgeci make
