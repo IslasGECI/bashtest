@@ -1,4 +1,4 @@
 tests:
-	pytest
+	pytest --verbose
 
 .PHONY: tests
